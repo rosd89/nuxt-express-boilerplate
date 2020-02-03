@@ -1,7 +1,6 @@
+require('dotenv').config()
+
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'nuxt-express-boilerplate',
     meta: [
@@ -13,13 +12,14 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
+  serverMiddleware: [
+    '~/server/serverMiddleware'
+  ],
+  plugins: [
+    '~/plugins/api',
+    '~/plugins/ant-design-vue'
+  ],
   build: {
     /*
     ** Run ESLint on save

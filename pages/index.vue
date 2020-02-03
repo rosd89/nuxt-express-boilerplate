@@ -1,11 +1,13 @@
 <template>
-  <section class="container">
-  </section>
+  <section class="container" />
 </template>
 
 <script>
 export default {
-  name: 'index'
+  name: 'Index',
+  asyncData ({ app }) {
+    return app.$api('/')
+  }
 }
 </script>
 

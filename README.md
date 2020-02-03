@@ -2,22 +2,15 @@
 
 > Nuxt.js project
 
-## Build Setup
+### 프로젝트 설정파일 가이드
+```.env
+# 프로젝트 Root 경로로 이동하여 .env 파일을 아래와 같이 수정
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+ROOT_PATH= # 프로젝트 Root 경로
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+DB_HOST= # DB 경로
+DB_PORT= # DB 포트
+DB_NAME= # DB 명
+DB_USER= # DB 유저
+DB_PASS= # DB 비밀번호
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
