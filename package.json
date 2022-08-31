@@ -34,7 +34,7 @@
     "eslint-plugin-vue": "^5.2.2",
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "json2csv": "^4.5.4",
     "knex": "^0.20.3",
     "multer": "^1.4.2",
